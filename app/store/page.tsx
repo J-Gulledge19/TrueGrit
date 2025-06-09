@@ -1,3 +1,4 @@
+import OrderFormModalButton from '../../components/CustomOrderButton';
 import products from '../../lib/products';
 
 export default function Store() {
@@ -11,6 +12,8 @@ export default function Store() {
             <h2 className="text-lg font-semibold">{product.name}</h2>
             <p className="text-sm">{product.description}</p>
             <p className="text-md font-bold mt-2">${product.price}</p>
+            {/* Info to populate form should be passed through the OrderFormModalButton */}
+            <OrderFormModalButton />
           </div>
         ))}
       </div>

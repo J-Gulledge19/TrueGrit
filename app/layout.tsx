@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { Cinzel, Anton, Bebas_Neue } from 'next/font/google'
 
 import Header from '../components/nav/header'
+import Footer from '../components/footer'
 
 const cinzel = Cinzel({ subsets: ['latin'], weight: '700' })
 const anton = Anton({ subsets: ['latin'], weight: '400' })
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${cinzel.className} ${anton.className} ${bebas.className} bg-[url(/images/portfolio/diamondplate.png)]`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
