@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${cinzel.className} ${anton.className} ${bebas.className} bg-[url(/images/portfolio/diamondplate.png)]`}>
-        {/* <NavBar /> */}
         <Header />
         {children}
         <Footer />

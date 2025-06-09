@@ -11,7 +11,7 @@ const products = [
     name: "Custom Grill",
     description: "Heavy-duty outdoor grill.",
     price: 450.00,
-    image: "/images/portfolio/TrueGrit.png"
+    image: "/images/products/sculpture.jpg"
   }
 ];
 
