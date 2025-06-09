@@ -2,11 +2,17 @@ import NavBar from "./navbar";
 
 export default function Header () {
     return (
-        <div className="h-full flex justify-between">
-            <div className="">
-                <NavBar />
-            </div>
-            <img className="w-48 flex-2" src="/images/portfolio/TrueGrit.png" alt="logo" />
-        </div>
+        <header className="relative h-30 w-full shadow-2xl">
+            <div className="absolute flex justify-between inset-0 bg-[url(/images/portfolio/headerimg.jpg)] bg-cover bg-center before:content-[''] before:absolute before:inset-0 before:bg-black before:opacity-50 z-0"></div>
+            <img src="/images/portfolio/wire.png" className="absolute  w-screen h-52 opacity-30"></img>
+            <section className="relative flex justify-between z-10 p-1">
+                <section className=" flex flex-col justify-around p-4 w-full">
+                    <h1 className="ml-10 mt-2 text-6xl font-western text-grit-parchment uppercase">True Grit Welding</h1>
+                    <p className="ml-10 text-lg text-grit-steel">Certified & Insured – Repair & Custom Fabrication</p>
+                    <NavBar />
+                </section>
+                <img className="w-52" src="/images/portfolio/TrueGrit.png" alt="logo" />
+            </section>
+        </header>
     )
 }
