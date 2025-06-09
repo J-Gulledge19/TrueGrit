@@ -3,7 +3,7 @@ import products from '../../lib/products';
 export default function Store() {
   return (
     <main className="p-8">
-      <h1 className="text-2xl font-header text-grit-parchment mb-4">Store</h1>
+      <h1 className="text-2xl font-header text-grit-lightSteel mb-4">Store</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {products.map((product) => (
           <div key={product.id} className="border border-grit-steel p-4 rounded bg-grit-black text-grit-parchment">
