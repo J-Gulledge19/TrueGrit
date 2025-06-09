@@ -11,7 +11,8 @@ module.exports = {
           black: "#111111",
           parchment: "#E3DAC9",
           weld: "#F58220",
-          steel: "#D9D4CD"
+          steel: "#D9D4CD",
+          lightSteel: "#f2efeb",
         }
       },
       fontFamily: {
