@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import OrderForm from './CustomOrderForm';
 
-//This will need to be setup to receive props and passed to the OrderForm
 export default function OrderFormModalButton() {
   const [isOpen, setIsOpen] = useState(false);
 
