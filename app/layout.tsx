@@ -11,14 +11,14 @@ export const metadata = {
   title: 'True Grit Welding',
   description: 'Certified & Insured Welding - Repair & Custom Fabrication',
   icons: {
-    icon: '/images/portfolio/TrueGrit.png',
+    icon: '/images/siteimages/TrueGrit.png',
   }
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${cinzel.className} ${anton.className} ${bebas.className} bg-[url(/images/portfolio/diamondplate.png)]`}>
+      <body className={`${cinzel.className} ${anton.className} ${bebas.className} bg-[url(/images/siteimages/diamondplate.png)]`}>
         <Header />
         {children}
         <Footer />
