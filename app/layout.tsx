@@ -1,6 +1,5 @@
 import '../styles/globals.css';
 import { Cinzel, Anton, Bebas_Neue } from 'next/font/google';
-// import Head from 'next/head';
 import Header from '../components/nav/header';
 import Footer from '../components/footer';
 
