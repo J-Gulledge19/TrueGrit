@@ -14,7 +14,7 @@ export default function Header () {
                     </div>
                     <NavBar />
                 </section>
-                    <img className="w-48" src="/images/siteimages/TrueGrit.png" alt="logo" />
+                    <img className="w-48 hidden sm:block" src="/images/siteimages/TrueGrit.png" alt="logo" />
             </section>
         </header>
     )
