@@ -25,7 +25,7 @@ export default function Footer() {
           <h3 className="font-header uppercase text-grit-weld mb-2">Contact</h3>
           <p className="text-sm">📍 Elbert, CO</p>
           <p className="text-sm">📞 (719) 660-6034</p>
-          <p className="text-sm">✉️ jgulledge19@gmail.com</p>
+          <p className="text-sm">✉️ j.gulledge@truegritwelding.com</p>
         </div>
       </div>
     </footer>

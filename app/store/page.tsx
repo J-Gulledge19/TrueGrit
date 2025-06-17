@@ -13,7 +13,7 @@ export default function Store() {
             <p className="text-sm">{product.description}</p>
             <p className="text-md font-bold mt-2">${product.price}</p>
             {/* Info to populate form should be passed through the OrderFormModalButton */}
-            <OrderFormModalButton />
+            <OrderFormModalButton id={product.id} productName={product.name} productDesc={product.description}/>
           </div>
         ))}
       </div>

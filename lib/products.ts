@@ -8,7 +8,7 @@ const products = [
   },
   {
     id: 2,
-    name: "HorseShoe Butterfly",
+    name: "Horseshoe Butterfly",
     description: "Welded horseshoe and rebar butterfly.",
     price: 60.00,
     image: "/images/products/horseshoebutterfly.jpg"
