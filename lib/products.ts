@@ -1,17 +1,17 @@
 const products = [
   {
     id: 1,
-    name: "Welded Art Sculpture",
-    description: "A handcrafted steel sculpture.",
-    price: 150.00,
-    image: "/images/products/sculpture.jpg"
+    name: "Horseshoe Cross",
+    description: "A handcrafted welded cross.",
+    price: 85.00,
+    image: "/images/products/horseshoecross.jpg"
   },
   {
     id: 2,
-    name: "Custom Grill",
-    description: "Heavy-duty outdoor grill.",
-    price: 450.00,
-    image: "/images/products/sculpture.jpg"
+    name: "Horseshoe Butterfly",
+    description: "Welded horseshoe and rebar butterfly.",
+    price: 60.00,
+    image: "/images/products/horseshoebutterfly.jpg"
   }
 ];
 
