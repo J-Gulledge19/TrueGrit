@@ -1,5 +1,6 @@
-export default function OrderForm({ onToggleModal }) {
-    const handleClick = () => {
+export default function OrderForm({ onToggleModal, productId, productName, productDesc }) {
+    
+  const handleClick = () => {
         onToggleModal();
     }
 
@@ -57,11 +58,11 @@ export default function OrderForm({ onToggleModal }) {
               </div>
               <div className="mb-4">
                 <label className="block mb-1">What do you need?</label>
-                <input type="text" name="item" required className="w-full p-2 rounded bg-grit-steel text-black" />
+                <input type="text" name="item" defaultValue={productId && productName} required className="w-full p-2 rounded bg-grit-steel text-black" />
               </div>
               <div className="mb-4">
                 <label className="block mb-1">Additional Notes</label>
-                <textarea name="notes" rows={3} className="w-full p-2 rounded bg-grit-steel text-black" />
+                <textarea name="notes" rows={3} defaultValue= {productId && productDesc} className="w-full p-2 rounded bg-grit-steel text-black" />
               </div>
               <div className="flex justify-end space-x-2">
                 <button type="submit" className="bg-grit-weld text-white px-4 py-2 rounded hover:bg-orange-700">
