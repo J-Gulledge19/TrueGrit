@@ -7,18 +7,9 @@ export async function POST(req: Request) {
 
   try {
     const data = await resend.emails.send({
-    // "from" needs to be updated with a valid domain after you purchase one
       from: `${email} <j.gulledge@truegritwelding.com>`,
       to: ['orders.truegritwelding@gmail.com', 'j.gulledge@truegritwelding.com'],
-    
-    // test delivery successful
-    //   to: ['delivered@resend.com'],
-    
-    //   test bounced emails
-    // to: ['bounced@resend.dev'],
-    
-    // test "marked as spam"
-    // to: ['complain@resend.dev'],
+
       subject: `New Custom Order Request from ${name}`,
       html: `
         <strong>Name:</strong> ${name}<br/>

@@ -25,8 +25,6 @@ export default function OrderForm({ onToggleModal, productId, productName, produ
     alert('Order sent!');
     onToggleModal(false);
   } else {
-    //Pick how you want to handle form submission errors
-    //"alerts" are NOT the way -Mando
     alert('Failed to send.');
   }
 };
@@ -42,8 +40,6 @@ export default function OrderForm({ onToggleModal, productId, productName, produ
             </button>
             <h2 className="text-xl font-header mb-4">Custom Order Request</h2>
             <form
-            // This is if you want to change to mailto
-            //   action="mailto:weld@truegritwelding.com"
               onSubmit={handleSubmit}
               method="POST"
               encType="text/plain"
