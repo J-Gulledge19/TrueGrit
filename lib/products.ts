@@ -17,21 +17,21 @@ const products = [
     id: 3,
     name: "Horseshoe Dog",
     description: "Welded horseshoe and Hammer Dog.",
-    price: 70.00,
+    price: 75.00,
     image: "/images/products/horseshoedog.jpg"
   },
   {
     id: 4,
     name: "Horseshoe Reindeer",
     description: "Hand crafted horseshoe Reindeer.",
-    price: 60.00,
+    price: 65.00,
     image: "/images/products/horseshoereindeer.jpg"
   },
   {
     id: 5,
-    name: "Horseshoe Butterfly",
+    name: "Horseshoe Cat",
     description: "Welded horseshoe cat.",
-    price: 60.00,
+    price: 40.00,
     image: "/images/products/horseshoecat.jpg"
   }
 ];
