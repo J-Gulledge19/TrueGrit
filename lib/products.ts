@@ -33,7 +33,14 @@ const products = [
     description: "Welded horseshoe cat.",
     price: 40.00,
     image: "/images/products/horseshoecat.jpg"
-  }
+  },
+    {
+    id: 6,
+    name: "Horseshoe Owl",
+    description: "Welded horseshoe Owl.",
+    price: 55.00,
+    image: "/images/products/horseshoeowl.jpg"
+  },
 ];
 
 export default products;
