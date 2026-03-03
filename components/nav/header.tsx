@@ -10,7 +10,7 @@ export default function Header () {
                     <div className="w-fit rounded-md bg-gradient-to-r from-black to-transparent pr-8">
                         <h1 className="ml-10 mt-2 text-6xl font-western text-grit-parchment uppercase">True Grit Welding</h1>
                         <h1 className="ml-10 text-3xl font-western text-grit-parchment">Built with Grit. Forged with Precision.</h1>
-                        <p className="ml-10 text-lg text-grit-steel">Certified & Insured – Repair & Custom Fabrication</p>
+                        <p className="ml-10 text-lg text-grit-steel">Certified Welding – Repair & Custom Fabrication</p>
                     </div>
                     <NavBar />
                 </section>

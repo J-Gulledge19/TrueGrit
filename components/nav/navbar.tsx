@@ -7,6 +7,7 @@ export default function NavBar(){
             <Link className={`${btnStyle}`} href={"/"}>Home</Link>
             <Link className={`${btnStyle}`} href={"/about"}>About</Link>
             <Link className={`${btnStyle}`} href={"/store"}>Store</Link>
+            <Link className={`${btnStyle}`} href={"/gallery"}>Forged by True Grit</Link>
         </nav>
     )
 }
