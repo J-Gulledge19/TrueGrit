@@ -20,27 +20,35 @@ const products = [
     price: 75.00,
     image: "/images/products/horseshoedog.jpg"
   },
-  {
+      {
     id: 4,
+    name: "Horseshoe Owl",
+    description: "Welded horseshoe Owl.",
+    price: 55.00,
+    image: "/images/products/horseshoeowl.jpg"
+  },
+    {
+    id: 5,
+    name: "Whiskey Cowboy",
+    description: "Liquor bottle holder.",
+    price: 50.00,
+    image: "/images/products/whiskeycowboy.jpg"
+  },
+  {
+    id: 6,
     name: "Horseshoe Reindeer",
     description: "Hand crafted horseshoe Reindeer.",
     price: 65.00,
     image: "/images/products/horseshoereindeer.jpg"
   },
   {
-    id: 5,
+    id: 7,
     name: "Horseshoe Cat",
     description: "Welded horseshoe cat.",
     price: 40.00,
     image: "/images/products/horseshoecat.jpg"
   },
-    {
-    id: 6,
-    name: "Horseshoe Owl",
-    description: "Welded horseshoe Owl.",
-    price: 55.00,
-    image: "/images/products/horseshoeowl.jpg"
-  },
+
 ];
 
 export default products;

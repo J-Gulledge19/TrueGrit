@@ -5,7 +5,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <h2 className="text-xl font-western uppercase mb-2">True Grit Welding</h2>
-          <p className="text-sm">Certified • Insured • Veteran Owned</p>
+          <p className="text-sm">Certified Welding • Veteran Owned</p>
           <p className="text-xs mt-2 text-grit-steel">© {new Date().getFullYear()} True Grit Welding</p>
         </div>
 
@@ -15,6 +15,7 @@ export default function Footer() {
           <ul className="space-y-1 text-sm">
             <li><a href="/" className="hover:underline">Home</a></li>
             <li><a href="/store" className="hover:underline">Store</a></li>
+            <li><a href="/gallery" className="hover:underline">Forged by True Grit</a></li>
           </ul>
         </div>
 
