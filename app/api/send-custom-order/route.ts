@@ -7,8 +7,8 @@ export async function POST(req: Request) {
 
   try {
     const data = await resend.emails.send({
-      from: `${email} <j.gulledge@truegritwelding.com>`,
-      to: ['orders.truegritwelding@gmail.com', 'j.gulledge@truegritwelding.com'],
+      from: `${email} <jgulledge@truegritwelding.com>`,
+      to: ['orders.truegritwelding@gmail.com', 'jgulledge@truegritwelding.com'],
 
       subject: `New Custom Order Request from ${name}`,
       html: `
